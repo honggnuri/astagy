@@ -1,0 +1,86 @@
+footer {
+    position: relative;
+    top: 300px;
+    height: 360px;
+    width: 100%;
+}
+
+.footercontainer {
+    overflow: hidden;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.footercontainer .footerbox {
+    align-items: center;
+    margin: 90px 0px; 
+    display: flex;
+    color: #656998;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 6px;
+    white-space: nowrap;
+}
+
+.footercontainer .footerbox p {
+    margin-left: 4px;
+}
+
+.footercontainer .footertransition {
+    line-height: normal;
+    animation-name: astageX;
+    animation-duration: 20S;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+
+.footercontainer .footertransition2 {
+    animation-name: astagey;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+}
+
+@keyframes astageX{
+    0% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+@keyframes astagey{
+    0% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+.footercontent{
+    height: 50%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footercontent h1{
+    margin: auto;
+    color: #656998;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    margin: 6px;
+    white-space: nowrap;
+}

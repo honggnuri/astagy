@@ -1,0 +1,30 @@
+@media(max-width:960px){
+    section.contact .contact_container h1 {
+        margin: auto;
+        height: 160px;
+        display: flex;
+        justify-content: center;
+        color: #222750;
+        text-align: center;
+        font-family: 'Pretendard-Regular';
+        font-size: 100px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+@media(max-width:560px){
+    section.contact .contact_container h1 {
+        margin: auto;
+        height: 160px;
+        display: flex;
+        justify-content: center;
+        color: #222750;
+        text-align: center;
+        font-family: 'Pretendard-Regular';
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}

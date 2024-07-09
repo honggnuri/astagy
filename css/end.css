@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: black;
+}
+
+.container {
+    animation-name: Credit;
+    animation-duration: 60S;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.container .gap {
+    width: 100%;
+    height: 300px;
+}
+.container .gap2{
+    width: 100%;
+    height: 100px;
+} 
+
+.container .title {
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.container .title h1{
+color: aliceblue;
+}
+.container .text{
+    width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: auto;
+justify-content: center;
+}
+.container .text p{
+    height: 80px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes Credit{
+    0% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(-200%);
+    }
+}
